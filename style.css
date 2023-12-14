@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.button{
+    width: 80px;
+    height: 60px;
+    margin: 8px;
+    border:none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 30px;
+   background-color: rgba(243, 178, 15, 0.836);
+   box-shadow: -3px -3px 10px rgba(250, 209, 6, 0.836);
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row-input{
+    width: 340px;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid rgb(247, 246, 246);
+    background-color: rgba(10, 10, 10, 0.836);
+    border-radius: 5px;
+}
